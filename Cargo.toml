@@ -2,5 +2,10 @@
 name = "htmlforge"
 version = "0.1.0"
 edition = "2024"
+description = "A small, type-safe, closure-based builder for constructing HTML strings."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["html", "builder", "templating", "web"]
+categories = ["template-engine", "web-programming"]
 
 [dependencies]
