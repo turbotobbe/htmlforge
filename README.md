@@ -3,6 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/htmlforge.svg)](https://crates.io/crates/htmlforge)
 [![Documentation](https://docs.rs/htmlforge/badge.svg)](https://docs.rs/htmlforge)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#license)
+[![GitHub](https://img.shields.io/badge/github-turbotobbe%2Fhtmlforge-8da0cb.svg)](https://github.com/turbotobbe/htmlforge)
 
 A small, type-safe, closure-based builder for constructing HTML strings in
 Rust.
@@ -67,9 +68,9 @@ cargo add htmlforge
 
 ## Running the bundled examples
 
-From a checkout of this repository:
-
 ```sh
+git clone https://github.com/turbotobbe/htmlforge.git
+cd htmlforge
 cargo run --example basic
 cargo run --example nested
 ```
